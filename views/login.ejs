@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <div class="main p-10 w-full h-screen bg-zinc-800 text-white">
+    <a class="text-blue-400" href="/">SingUp</a>
+    <h1 class="text-2xl ">Login</h1>
+
+    <div class="input mt-5">
+    <form action="/loginadmin" method="post">
+        <input type="email" name="email" placeholder="Email" class="p-2 px-5 text-black rounded outline-none mr-4" autocomplete="off" required>
+        <input type="password" name="password" placeholder="Password" class="p-2 px-5 text-black rounded outline-none" autocomplete="off">
+        <input type="submit" value="login" class="py-2 px-5 bg-blue-500 rounded ml-4">
+    </form>
+    </div>
+   </div>
+</body>
+</html>
